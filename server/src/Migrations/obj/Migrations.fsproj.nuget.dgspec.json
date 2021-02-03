@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/iago-moreira/morallito/IoT-service-provider/server/src/Migrations/Migrations.fsproj": {}
+  },
+  "projects": {
+    "/home/iago-moreira/morallito/IoT-service-provider/server/src/Migrations/Migrations.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/iago-moreira/morallito/IoT-service-provider/server/src/Migrations/Migrations.fsproj",
+        "projectName": "Migrations",
+        "projectPath": "/home/iago-moreira/morallito/IoT-service-provider/server/src/Migrations/Migrations.fsproj",
+        "packagesPath": "/home/iago-moreira/.nuget/packages/",
+        "outputPath": "/home/iago-moreira/morallito/IoT-service-provider/server/src/Migrations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/iago-moreira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.5, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[3.1.1, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NETCore.Targets": {
+              "target": "Package",
+              "version": "[3.1.0, )",
+              "generatePathProperty": true
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "generatePathProperty": true
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "generatePathProperty": true
+            },
+            "SQLitePCLRaw.lib.e_sqlite3": {
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "generatePathProperty": true
+            },
+            "SQLitePCLRaw.provider.dynamic_cdecl": {
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "generatePathProperty": true
+            },
+            "Simple.Migrations": {
+              "target": "Package",
+              "version": "[0.9.20, )",
+              "generatePathProperty": true
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Console": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Diagnostics.Debug": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Globalization": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection.Extensions": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Reflection.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Runtime.Extensions": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Text.Encoding": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )",
+              "generatePathProperty": true
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
