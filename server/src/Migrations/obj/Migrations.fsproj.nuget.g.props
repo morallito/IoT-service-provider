@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/iago-moreira/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/iago-moreira/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_NETCore_Targets Condition=" '$(PkgMicrosoft_NETCore_Targets)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.netcore.targets/3.1.0</PkgMicrosoft_NETCore_Targets>
+    <PkgMicrosoft_NETCore_Platforms Condition=" '$(PkgMicrosoft_NETCore_Platforms)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.netcore.platforms/3.1.1</PkgMicrosoft_NETCore_Platforms>
+    <PkgSystem_Runtime Condition=" '$(PkgSystem_Runtime)' == '' ">/home/iago-moreira/.nuget/packages/system.runtime/4.3.1</PkgSystem_Runtime>
+    <PkgSystem_Threading_Tasks Condition=" '$(PkgSystem_Threading_Tasks)' == '' ">/home/iago-moreira/.nuget/packages/system.threading.tasks/4.3.0</PkgSystem_Threading_Tasks>
+    <PkgSystem_Collections Condition=" '$(PkgSystem_Collections)' == '' ">/home/iago-moreira/.nuget/packages/system.collections/4.3.0</PkgSystem_Collections>
+    <PkgSystem_Text_RegularExpressions Condition=" '$(PkgSystem_Text_RegularExpressions)' == '' ">/home/iago-moreira/.nuget/packages/system.text.regularexpressions/4.3.1</PkgSystem_Text_RegularExpressions>
+    <PkgSystem_Text_Encoding Condition=" '$(PkgSystem_Text_Encoding)' == '' ">/home/iago-moreira/.nuget/packages/system.text.encoding/4.3.0</PkgSystem_Text_Encoding>
+    <PkgSystem_Reflection_Primitives Condition=" '$(PkgSystem_Reflection_Primitives)' == '' ">/home/iago-moreira/.nuget/packages/system.reflection.primitives/4.3.0</PkgSystem_Reflection_Primitives>
+    <PkgSystem_IO Condition=" '$(PkgSystem_IO)' == '' ">/home/iago-moreira/.nuget/packages/system.io/4.3.0</PkgSystem_IO>
+    <PkgSystem_Reflection Condition=" '$(PkgSystem_Reflection)' == '' ">/home/iago-moreira/.nuget/packages/system.reflection/4.3.0</PkgSystem_Reflection>
+    <PkgSystem_Runtime_Extensions Condition=" '$(PkgSystem_Runtime_Extensions)' == '' ">/home/iago-moreira/.nuget/packages/system.runtime.extensions/4.3.1</PkgSystem_Runtime_Extensions>
+    <PkgSystem_Globalization Condition=" '$(PkgSystem_Globalization)' == '' ">/home/iago-moreira/.nuget/packages/system.globalization/4.3.0</PkgSystem_Globalization>
+    <PkgSystem_Resources_ResourceManager Condition=" '$(PkgSystem_Resources_ResourceManager)' == '' ">/home/iago-moreira/.nuget/packages/system.resources.resourcemanager/4.3.0</PkgSystem_Resources_ResourceManager>
+    <PkgSystem_Diagnostics_Debug Condition=" '$(PkgSystem_Diagnostics_Debug)' == '' ">/home/iago-moreira/.nuget/packages/system.diagnostics.debug/4.3.0</PkgSystem_Diagnostics_Debug>
+    <PkgSystem_Linq Condition=" '$(PkgSystem_Linq)' == '' ">/home/iago-moreira/.nuget/packages/system.linq/4.3.0</PkgSystem_Linq>
+    <PkgSystem_Reflection_Extensions Condition=" '$(PkgSystem_Reflection_Extensions)' == '' ">/home/iago-moreira/.nuget/packages/system.reflection.extensions/4.3.0</PkgSystem_Reflection_Extensions>
+    <PkgSystem_Memory Condition=" '$(PkgSystem_Memory)' == '' ">/home/iago-moreira/.nuget/packages/system.memory/4.5.4</PkgSystem_Memory>
+    <PkgSystem_Data_Common Condition=" '$(PkgSystem_Data_Common)' == '' ">/home/iago-moreira/.nuget/packages/system.data.common/4.3.0</PkgSystem_Data_Common>
+    <PkgSystem_Console Condition=" '$(PkgSystem_Console)' == '' ">/home/iago-moreira/.nuget/packages/system.console/4.3.1</PkgSystem_Console>
+    <PkgSQLitePCLRaw_core Condition=" '$(PkgSQLitePCLRaw_core)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.core/2.0.3</PkgSQLitePCLRaw_core>
+    <PkgSQLitePCLRaw_provider_dynamic_cdecl Condition=" '$(PkgSQLitePCLRaw_provider_dynamic_cdecl)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3</PkgSQLitePCLRaw_provider_dynamic_cdecl>
+    <PkgSQLitePCLRaw_lib_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_lib_e_sqlite3)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.3</PkgSQLitePCLRaw_lib_e_sqlite3>
+    <PkgSQLitePCLRaw_bundle_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_bundle_e_sqlite3)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.3</PkgSQLitePCLRaw_bundle_e_sqlite3>
+    <PkgSimple_Migrations Condition=" '$(PkgSimple_Migrations)' == '' ">/home/iago-moreira/.nuget/packages/simple.migrations/0.9.20</PkgSimple_Migrations>
+    <PkgMicrosoft_Data_Sqlite_Core Condition=" '$(PkgMicrosoft_Data_Sqlite_Core)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.data.sqlite.core/3.1.5</PkgMicrosoft_Data_Sqlite_Core>
+    <PkgMicrosoft_Data_Sqlite Condition=" '$(PkgMicrosoft_Data_Sqlite)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.data.sqlite/3.1.5</PkgMicrosoft_Data_Sqlite>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/iago-moreira/.nuget/packages/fsharp.core/4.7.2</PkgFSharp_Core>
+  </PropertyGroup>
+</Project>

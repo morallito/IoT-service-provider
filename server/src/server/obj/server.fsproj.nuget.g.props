@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/iago-moreira/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/iago-moreira/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSystem_ValueTuple Condition=" '$(PkgSystem_ValueTuple)' == '' ">/home/iago-moreira/.nuget/packages/system.valuetuple/4.5.0</PkgSystem_ValueTuple>
+    <PkgSystem_Threading_Tasks_Extensions Condition=" '$(PkgSystem_Threading_Tasks_Extensions)' == '' ">/home/iago-moreira/.nuget/packages/system.threading.tasks.extensions/4.5.4</PkgSystem_Threading_Tasks_Extensions>
+    <PkgSystem_Reflection_Emit_Lightweight Condition=" '$(PkgSystem_Reflection_Emit_Lightweight)' == '' ">/home/iago-moreira/.nuget/packages/system.reflection.emit.lightweight/4.7.0</PkgSystem_Reflection_Emit_Lightweight>
+    <PkgSystem_Reflection_Emit Condition=" '$(PkgSystem_Reflection_Emit)' == '' ">/home/iago-moreira/.nuget/packages/system.reflection.emit/4.7.0</PkgSystem_Reflection_Emit>
+    <PkgUtf8Json Condition=" '$(PkgUtf8Json)' == '' ">/home/iago-moreira/.nuget/packages/utf8json/1.3.7</PkgUtf8Json>
+    <PkgMicrosoft_NETCore_Platforms Condition=" '$(PkgMicrosoft_NETCore_Platforms)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.netcore.platforms/3.1.1</PkgMicrosoft_NETCore_Platforms>
+    <PkgSystem_Security_Cryptography_Cng Condition=" '$(PkgSystem_Security_Cryptography_Cng)' == '' ">/home/iago-moreira/.nuget/packages/system.security.cryptography.cng/4.7.0</PkgSystem_Security_Cryptography_Cng>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/iago-moreira/.nuget/packages/fsharp.core/4.7.2</PkgFSharp_Core>
+    <PkgTaskBuilder_fs Condition=" '$(PkgTaskBuilder_fs)' == '' ">/home/iago-moreira/.nuget/packages/taskbuilder.fs/2.1.0</PkgTaskBuilder_fs>
+    <PkgSystem_Threading_Tasks_Dataflow Condition=" '$(PkgSystem_Threading_Tasks_Dataflow)' == '' ">/home/iago-moreira/.nuget/packages/system.threading.tasks.dataflow/4.11.1</PkgSystem_Threading_Tasks_Dataflow>
+    <PkgSystem_Memory Condition=" '$(PkgSystem_Memory)' == '' ">/home/iago-moreira/.nuget/packages/system.memory/4.5.4</PkgSystem_Memory>
+    <PkgMicrosoft_IdentityModel_Logging Condition=" '$(PkgMicrosoft_IdentityModel_Logging)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.identitymodel.logging/6.6.0</PkgMicrosoft_IdentityModel_Logging>
+    <PkgMicrosoft_CSharp Condition=" '$(PkgMicrosoft_CSharp)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.csharp/4.7.0</PkgMicrosoft_CSharp>
+    <PkgMicrosoft_IdentityModel_Tokens Condition=" '$(PkgMicrosoft_IdentityModel_Tokens)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.identitymodel.tokens/6.6.0</PkgMicrosoft_IdentityModel_Tokens>
+    <PkgMicrosoft_IdentityModel_JsonWebTokens Condition=" '$(PkgMicrosoft_IdentityModel_JsonWebTokens)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.6.0</PkgMicrosoft_IdentityModel_JsonWebTokens>
+    <PkgSystem_IdentityModel_Tokens_Jwt Condition=" '$(PkgSystem_IdentityModel_Tokens_Jwt)' == '' ">/home/iago-moreira/.nuget/packages/system.identitymodel.tokens.jwt/6.6.0</PkgSystem_IdentityModel_Tokens_Jwt>
+    <PkgSQLitePCLRaw_core Condition=" '$(PkgSQLitePCLRaw_core)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.core/2.0.3</PkgSQLitePCLRaw_core>
+    <PkgSQLitePCLRaw_provider_dynamic_cdecl Condition=" '$(PkgSQLitePCLRaw_provider_dynamic_cdecl)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3</PkgSQLitePCLRaw_provider_dynamic_cdecl>
+    <PkgSQLitePCLRaw_lib_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_lib_e_sqlite3)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.3</PkgSQLitePCLRaw_lib_e_sqlite3>
+    <PkgSQLitePCLRaw_bundle_e_sqlite3 Condition=" '$(PkgSQLitePCLRaw_bundle_e_sqlite3)' == '' ">/home/iago-moreira/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.3</PkgSQLitePCLRaw_bundle_e_sqlite3>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/iago-moreira/.nuget/packages/newtonsoft.json/12.0.3</PkgNewtonsoft_Json>
+    <PkgMicrosoft_IO_RecyclableMemoryStream Condition=" '$(PkgMicrosoft_IO_RecyclableMemoryStream)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.io.recyclablememorystream/1.3.4</PkgMicrosoft_IO_RecyclableMemoryStream>
+    <PkgMicrosoft_IdentityModel_Protocols Condition=" '$(PkgMicrosoft_IdentityModel_Protocols)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.identitymodel.protocols/6.6.0</PkgMicrosoft_IdentityModel_Protocols>
+    <PkgMicrosoft_IdentityModel_Protocols_OpenIdConnect Condition=" '$(PkgMicrosoft_IdentityModel_Protocols_OpenIdConnect)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.6.0</PkgMicrosoft_IdentityModel_Protocols_OpenIdConnect>
+    <PkgMicrosoft_AspNetCore_Authentication_JwtBearer Condition=" '$(PkgMicrosoft_AspNetCore_Authentication_JwtBearer)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.5</PkgMicrosoft_AspNetCore_Authentication_JwtBearer>
+    <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/home/iago-moreira/.nuget/packages/giraffe/4.1.0</PkgGiraffe>
+    <PkgFSharp_Control_Websockets Condition=" '$(PkgFSharp_Control_Websockets)' == '' ">/home/iago-moreira/.nuget/packages/fsharp.control.websockets/0.2.2</PkgFSharp_Control_Websockets>
+    <PkgSaturn Condition=" '$(PkgSaturn)' == '' ">/home/iago-moreira/.nuget/packages/saturn/0.14.1</PkgSaturn>
+    <PkgMicrosoft_Data_Sqlite_Core Condition=" '$(PkgMicrosoft_Data_Sqlite_Core)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.data.sqlite.core/3.1.5</PkgMicrosoft_Data_Sqlite_Core>
+    <PkgMicrosoft_Data_Sqlite Condition=" '$(PkgMicrosoft_Data_Sqlite)' == '' ">/home/iago-moreira/.nuget/packages/microsoft.data.sqlite/3.1.5</PkgMicrosoft_Data_Sqlite>
+    <PkgDapper Condition=" '$(PkgDapper)' == '' ">/home/iago-moreira/.nuget/packages/dapper/2.0.35</PkgDapper>
+  </PropertyGroup>
+</Project>
